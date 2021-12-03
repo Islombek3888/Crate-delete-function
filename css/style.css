@@ -1,0 +1,73 @@
+body{
+    background:linear-gradient(45deg,red,green,blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 4rem;
+}
+body .box{
+    position: relative;
+    padding-top:20px ;
+    width: 20rem;
+    background-color: rgba(137, 43, 226, 0.218);
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.btn{
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    margin-left: -10px;
+    height: 20px;
+    
+}
+.btn button{
+    height: 3rem;
+    border-radius: 20px;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.box h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list .item{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:yellowgreen;
+    font-size: 30px;
+}
+.list_btn{
+    font-size: 15px;
+    margin-top: 10px;
+    background: transparent;
+    cursor: pointer;
+}
+.list_btn:first-child{
+    padding: 0 20px;
+}
+form .btn{
+    width: 5rem;
+    margin-left: -2rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: none;
+    padding: .2rem;
+    cursor: pointer;
+    height: 2rem;
+}
+form input{
+    border-radius: 1rem;
+    border-style: solid;
+    padding: 1rem;
+}
+#form{
+    margin-top: 10rem;
+    display: none;
+}
